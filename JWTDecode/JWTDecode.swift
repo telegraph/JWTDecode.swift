@@ -77,7 +77,7 @@ struct DecodedJWT: JWT {
 public struct Claim {
 
     /// raw value of the claim
-    let value: Any?
+    public let value: Any?
 
     /// value of the claim as `String`
     public var string: String? {
